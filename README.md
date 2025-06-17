@@ -1,4 +1,4 @@
-# Analyze Network Attack using tcpdump
+# Apply OS hardening techniques
 
 Yummyrecipesforme.com is a website that sells recipes and cookbooks. Consider a scenario where multiple customers emailed yummyrecipesforme’s helpdesk complaining that the company’s website had prompted them to download a file to access free recipes. The customers claimed that after running the file, the address of the website changed and their personal computers began running more slowly. 
 
@@ -21,9 +21,7 @@ To address the incident, I create a sandbox environment to observe the suspiciou
 **The logs show the following process:**
 
 1. The browser initiates a DNS request: It requests the IP address of the yummyrecipesforme.com URL from the DNS server.
-
 2. The DNS replies with the correct IP address. 
-
 3. The browser initiates an HTTP request: It requests the yummyrecipesforme.com webpage using the IP address sent by the DNS server.
 4. The browser initiates the download of the malware.
 5. The browser initiates a DNS request for greatrecipesforme.com.
