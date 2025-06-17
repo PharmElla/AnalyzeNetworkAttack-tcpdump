@@ -1,4 +1,4 @@
-# Apply OS hardening techniques
+# Apply OS Hardening Techniques
 
 Yummyrecipesforme.com is a website that sells recipes and cookbooks. Consider a scenario where multiple customers emailed yummyrecipesforme’s helpdesk complaining that the company’s website had prompted them to download a file to access free recipes. The customers claimed that after running the file, the address of the website changed and their personal computers began running more slowly. 
 
